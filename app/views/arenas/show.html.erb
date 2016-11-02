@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @arena.user_id %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @arena.message_id %>
+</p>
+
+<%= link_to 'Edit', edit_arena_path(@arena) %> |
+<%= link_to 'Back', arenas_path %>
